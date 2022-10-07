@@ -11,7 +11,7 @@ The ICS-209-PLUS spatiotemporal linkage allows researchers to observe wildfire c
 <figure>
 
 <p float="center">
-  <img src="path/Texas_Complex_2011.png" width="900" />
+  <img src="https://github.com/katiemcconnell/ICS-209-PLUS_spatiotemporal_linkage/blob/main/Figure_Github/Texas_Complex_2011.png" width="900" />
 </p>
 
 <figcaption align = "center"><b>Three scales of the ICS-209-PLUS spatiotemporal linkage shown for the Southeast Texas Fire Complex (2011). Grey polygons show relevant spatial units and red polyogons show MTBS wildfire footprints. </b></figcaption>
@@ -31,8 +31,8 @@ This code ascribes each wildfire incident to relevant spatial and temporal units
   <figure>
 
 <p float="center">
-  <img src="path/Cedar_2003.png" width="380" />
-  <img src="path/Thomas_2017.png" width="380" /> 
+  <img src="https://github.com/katiemcconnell/ICS-209-PLUS_spatiotemporal_linkage/blob/main/Figure_Github/Cedar_2003.png" width="380" />
+  <img src="https://github.com/katiemcconnell/ICS-209-PLUS_spatiotemporal_linkage/blob/main/Figure_Github/Thomas_2017.png" width="400" /> 
 </p>
 
 <figcaption align = "center"><b>Spatial association procedure for the ICS-209-PLUS spatiotemporal linkage. MTBS fire footprints shown in red, FIRED fire footprints shown in blue, overlap between MTBS and FIRED footprints shown in purple, and corresponding census tracts shown in grey. </b></figcaption>
