@@ -1,5 +1,6 @@
 # ICS-209-PLUS linkage to spatiotemporal units
 
+[![DOI](https://zenodo.org/badge/547538267.svg)](https://zenodo.org/badge/latestdoi/547538267)
 
 ## Description of the Data
 This repository stores source codes that link wildfire records from the ICS-209-PLUS dataset to commonly-used spatial (counties, census tracts, and census block groups) and temporal (quarters, years) units in the United States from 1999 to 2020. Data are integrated from administrative records retained in the U.S. National Incident Management System/Incident Command System ICS-209 Incident Status Summary Forms, and fire burn footprints taken from the [Monitoring Trends in Burn Severity (MTBS)](https://www.mtbs.gov/) database and the [FIRED CONUS + AK](https://scholar.colorado.edu/concern/datasets/nv935382p) database. The final data produced by these codes are available [here](https://figshare.com/articles/dataset/ICS209-PLUS_Cleaned_databases/8048252/10).
