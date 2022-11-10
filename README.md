@@ -78,4 +78,4 @@ Williams, T., Mahood, A. L., McGlinchy, J., Cook, M. C., St. Denis, L. A., Mietk
 This research was funded by the National Science Foundation Sociology Award #2001261, “The Effects of Wildfire Damage on Housing Access and Migration” and the National Science Foundation Sociology and Human-Environment and Geographical Sciences (HEGS) Award \#2117405, “Analysis of Impacts of Environmental and Natural Hazards on Human Migration.” Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author and do not necessarily reflect the views of the NSF.
 
 ## Recommended Citation
-St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–20202.” Under review at *Scientific Data*.
+St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2020.” Under review at *Scientific Data*.
