@@ -14,6 +14,7 @@ library(purrr)
 # 2. FIRED footprints: https://github.com/maxwellCcook/ics209-plus-fired/blob/main/data/spatial/mod/ics-fired/ics209plus_fired_events_cleaned_SHP.zip
 # 3. MTBS footprints: Download MTBS Burned Areas Boundaries Dataset, https://www.mtbs.gov/direct-download
 # 4. NHGIS spatial unit shapefiles: Download 2020 NHGIS spatial unit boundaries in shapefile format, https://usa.ipums.org/usa-action/variables/group 
+# 5. State FIPS codes: Download state FIPS codes, https://www.census.gov/library/reference/code-lists/ansi/ansi-codes-for-states.html
 
 # Import Data -------------------------------------------------------------
 
