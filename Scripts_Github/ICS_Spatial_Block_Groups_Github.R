@@ -45,6 +45,29 @@ fired <- st_read("ics209plus_fired_events_cleaned_SHP/ics209plus_fired_events_cl
 cbg <- st_read("nhgis0025_shapefile_tl2020_us_blck_grp_2020/US_blck_grp_2020.shp") %>%
   st_transform(crs = st_crs(mtbs)) # change coordinate system to match MTBS
 
+# County boundaries (sf object)
+counties <- st_read("nhgis0026_shapefile_tl2020_us_county_2020/US_county_2020.shp") %>%
+  st_transform(crs = st_crs(mtbs)) # change coordinate system to match MTBS
+
+# Extract relevant county and state details for final dataframe
+# Github text: Import table of state FIPS names and codes
+states <- read.table("state_codes.txt",
+                     header = FALSE,    
+                     sep = "|") %>%
+  rename(STATEFP = V1,
+         STATE_ABBREV = V2) %>%
+  dplyr::select(STATEFP, STATE_ABBREV) %>%
+  mutate(STATEFP = as.numeric(STATEFP),
+         STATE_ABBREV = as.character(STATE_ABBREV))
+
+# Pull out county names, join with state abbreviations - this is appended on to final dataframe
+county_names <- counties %>% as.data.frame() %>% 
+  dplyr::select(GEOID, STATEFP, NAMELSAD) %>%
+  mutate(GEOID = as.character(GEOID),
+         STATEFP = as.character(STATEFP) %>% as.numeric(),
+         NAMELSAD = as.character(NAMELSAD)) %>%
+  left_join(states, by = "STATEFP")
+
 # Remove initial attack fires ---------------------------------------------
 
 # These specific fires were manually identified by L.S. and K.S.
@@ -326,8 +349,15 @@ ics_spatial_cbg2 <- mutate(ics_spatial_cbg,
 
 # Create final dataframe that removes extraneous columns
 ics_spatial_cbg3 <- ics_spatial_cbg2 %>%
-  dplyr::select(GEOID, INCIDENT_ID, FIRED_ID, 
-                Quarter, Year, Spatial_Data_Origin)
+  dplyr::select(GEOID, INCIDENT_ID,  
+                Quarter, Year, Spatial_Data_Origin) %>%
+  mutate(county_geoid =(stringr::str_extract(GEOID, "^.{5}"))) %>% # extract county GEOID from tract GEOID for join
+  left_join(county_names, by = c("county_geoid" = "GEOID")) %>%
+  rename(COUNTY_NAME = NAMELSAD,
+         QUARTER = Quarter,
+         YEAR = Year,
+         SPATIAL_DATA_ORIGIN = Spatial_Data_Origin) %>%
+  dplyr::select(GEOID, STATE_ABBREV, COUNTY_NAME, INCIDENT_ID, QUARTER, YEAR, SPATIAL_DATA_ORIGIN)
 
 # Save final dataframe
 write_csv(ics_spatial_cbg3, "ics_spatial_cbg.csv")
