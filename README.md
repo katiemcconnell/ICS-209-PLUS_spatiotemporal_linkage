@@ -48,6 +48,7 @@ The following codes are stored in this repository:
 * **ICS_Spatial_Tracts_Github.R**: processing codes for tract-level spatiotemporal data
 * **ICS_Spatial_Block_Groups_Github.R**: processing codes for census block group-level spatiotemporal data
 * **ICS_spatiotemporal_link_to_ics209plus_Github.R**: connects ICS-209-PLUS spatiotemporal observations to full suite of variables available in the primary ICS-209-PLUS incident tables
+* **Figure2_Github.R**: Code used to create manuscript figure 2
     
     
  The primary processing codes stored in this repository conduct the following core steps:
