@@ -69,7 +69,7 @@ Mahood, Adam L., Estelle J. Lindrooth, Maxwell C. Cook, and Jennifer K. Balch. �
 
 Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. IPUMS National Historical Geographic Information System: Version 17.0 Minneapolis, MN: IPUMS. 2022. http://doi.org/10.18128/D050.V17.0
 
-St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2020.” Under review at *Scientific Data*.
+St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2020.” In press at *Scientific Data*.
 
 St. Denis, Lise A., Nathan P. Mietkiewicz, Karen C. Short, Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2014.” *Scientific Data* 7, no. 1 (February 21, 2020): 1–18. https://doi.org/10.1038/s41597-020-0403-0.
 
