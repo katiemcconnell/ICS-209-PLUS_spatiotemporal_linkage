@@ -5,7 +5,7 @@
 ## Description of the Data
 This repository stores source codes that link wildfire records from the ICS-209-PLUS dataset to commonly-used spatial (counties, census tracts, and census block groups) and temporal (quarters, years) units in the United States from 1999 to 2020. Data are integrated from administrative records retained in the U.S. National Incident Management System/Incident Command System ICS-209 Incident Status Summary Forms, and fire burn footprints taken from the [Monitoring Trends in Burn Severity (MTBS)](https://www.mtbs.gov/) database and the [FIRED CONUS + AK](https://scholar.colorado.edu/concern/datasets/nv935382p) database. The final data produced by these codes are available [here](https://figshare.com/articles/dataset/ICS209-PLUS_Cleaned_databases/8048252/10).
 
-The ICS-209-PLUS spatiotemporal linkage allows researchers to observe wildfire characteristics and impact metrics at the Incident-GEOID-Quarter-Year level. In this way, they are distinct from the primary ICS-209-PLUS incident tables, which report wildfire characteristics and impact metrics at the Incident-level and daily report-level. The ICS-209-PLUS spatiotemporal linkage is designed primarily for social and health science researchers who aim to examine wildfire metrics in tandem with relevant social data (e.g. U.S. Census, American Community Survey, etc.). For example, see [McConnell _et al_ 2021.](https://www.clevelandfed.org/en/newsroom-and-events/publications/working-papers/2021-working-papers/wp-2129-effects-of-wildfire-destruction-on-migration.aspx) We strongly recommend that users read the full data documentation in the corresponding publication (St. Denis *et al.* Under Review). Understanding details on the association of wildfire metrics with spatial and temporal units within the same incident is critical for appropriate data use. 
+The ICS-209-PLUS spatiotemporal linkage allows researchers to observe wildfire characteristics and impact metrics at the Incident-GEOID-Quarter-Year level. In this way, they are distinct from the primary ICS-209-PLUS incident tables, which report wildfire characteristics and impact metrics at the Incident-level and daily report-level. The ICS-209-PLUS spatiotemporal linkage is designed primarily for social and health science researchers who aim to examine wildfire metrics in tandem with relevant social data (e.g. U.S. Census, American Community Survey, etc.). For example, see [McConnell _et al_ 2021.](https://www.clevelandfed.org/en/newsroom-and-events/publications/working-papers/2021-working-papers/wp-2129-effects-of-wildfire-destruction-on-migration.aspx) We strongly recommend that users read the full data documentation in the corresponding publication (St. Denis *et al.* Accepted). Understanding details on the association of wildfire metrics with spatial and temporal units within the same incident is critical for appropriate data use. 
 
   <br />
 
@@ -69,7 +69,7 @@ Mahood, Adam L., Estelle J. Lindrooth, Maxwell C. Cook, and Jennifer K. Balch. �
 
 Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. IPUMS National Historical Geographic Information System: Version 17.0 Minneapolis, MN: IPUMS. 2022. http://doi.org/10.18128/D050.V17.0
 
-St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2020.” In press at *Scientific Data*.
+St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2020.” Accepted at *Scientific Data*.
 
 St. Denis, Lise A., Nathan P. Mietkiewicz, Karen C. Short, Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2014.” *Scientific Data* 7, no. 1 (February 21, 2020): 1–18. https://doi.org/10.1038/s41597-020-0403-0.
 
@@ -78,5 +78,7 @@ Williams, T., Mahood, A. L., McGlinchy, J., Cook, M. C., St. Denis, L. A., Mietk
 ## Funding Acknowledgement
 This research was funded by the National Science Foundation Sociology Award #2001261, “The Effects of Wildfire Damage on Housing Access and Migration” and the National Science Foundation Sociology and Human-Environment and Geographical Sciences (HEGS) Award \#2117405, “Analysis of Impacts of Environmental and Natural Hazards on Human Migration.” Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author and do not necessarily reflect the views of the NSF.
 
-## Recommended Citation
-St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2020.” In press at *Scientific Data*.
+## Recommended Citations
+St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2020.” Accepted at *Scientific Data*.
+
+McConnell, Kathryn. (2022). katiemcconnell/ICS-209-PLUS_spatiotemporal_linkage: ics-209-plus_spatiotemporal_linkage_v1.0.0 (wildfire). Zenodo. https://doi.org/10.5281/zenodo.7181443
