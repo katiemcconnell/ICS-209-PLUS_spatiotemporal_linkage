@@ -10,7 +10,7 @@ library(purrr)
 
 # Component data used for this code exceeds Github storage, so must be downloaded from separate locations. 
 # Access each component data source in the following location:
-# 1. ICS incidents: https://figshare.com/articles/dataset/ICS209-PLUS_Cleaned_databases/8048252/10
+# 1. ICS incidents: https://figshare.com/articles/dataset/All-hazards_dataset_mined_from_the_US_National_Incident_Management_System_1999-2020/19858927
 # 2. FIRED footprints: https://github.com/maxwellCcook/ics209-plus-fired/blob/main/data/spatial/mod/ics-fired/ics209plus_fired_events_cleaned_SHP.zip
 # 3. MTBS footprints: Download MTBS Burned Areas Boundaries Dataset, https://www.mtbs.gov/direct-download
 # 4. NHGIS spatial unit shapefiles: Download 2020 NHGIS spatial unit boundaries in shapefile format, https://usa.ipums.org/usa-action/variables/group 
