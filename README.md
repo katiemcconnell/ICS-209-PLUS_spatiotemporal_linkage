@@ -81,4 +81,4 @@ This research was funded by the National Science Foundation Sociology Award #200
 ## Recommended Citations
 St. Denis, Lise A., Karen C. Short, Kathryn McConnell, Maxwell C. Cook, Nathan P. Mietkiewicz,  Mollie Buckland, and Jennifer K. Balch. “All-Hazards Dataset Mined from the US National Incident Management System 1999–2020.” Accepted at *Scientific Data*.
 
-McConnell, Kathryn. (2022). katiemcconnell/ICS-209-PLUS_spatiotemporal_linkage: ics-209-plus_spatiotemporal_linkage_v1.0.0 (wildfire). Zenodo. https://doi.org/10.5281/zenodo.7181443
+McConnell, K. (2022). katiemcconnell/ICS-209-PLUS_spatiotemporal_linkage: ics-209-plus_spatiotemporal_linkage_v1.1.0 (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.7459040
